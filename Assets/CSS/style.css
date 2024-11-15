@@ -2,14 +2,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-    margin: 0;
-    background-image: url('/Assets/images/background2.png');
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-position: center; 
-}
-
 header{
     background-color: #b35310;
     font-size: 2em;
@@ -28,15 +20,15 @@ body {
     width: 100%;
     color: rgb(110, 14, 4);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    /* background-color:  (rgba(16, 92, 111, 0.773) 20%, rgba(3, 50, 96, 0.706) 30%, rgba(6, 1, 67, 0.807) 60%); */
+    background-color:  (rgba(16, 92, 111, 0.773) 20%, rgba(3, 50, 96, 0.706) 30%, rgba(6, 1, 67, 0.807) 60%);
 }
 
 main {
     box-sizing: border-box;
     height: 2200px;
     width: 100%;
-    /* background: radial-gradient(rgba(233, 180, 5, 0.475) 20%, rgba(155, 65, 5, 0.761) 30%, rgba(75, 2, 2, 0.718) 60%); */
-    /* justify-content: space-evenly; */
+    background: radial-gradient(rgba(233, 180, 5, 0.475) 20%, rgba(155, 65, 5, 0.761) 30%, rgba(75, 2, 2, 0.718) 60%); 
+    justify-content: space-evenly;
 }
 
 .col-md{
