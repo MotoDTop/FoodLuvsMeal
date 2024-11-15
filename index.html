@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="reset.stylesheet" href="reset.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/> -->
     <link rel="stylesheet" href="Assets/CSS/style.css"/>    
     <title>Weekly Meal Planner</title>
 </head>
@@ -14,150 +14,138 @@
 </header>
 <body>
     <main>
-        <div class="row">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Monday</h2>
-                            <label for="monday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Tuesday</h2>
-                            <label for="tuesday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Wednesday</h2>
-                            <label for="wednesday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Thursday</h2>
-                            <label for="thursday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Friday</h2>
-                            <label for="friday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container-fluid">
-                            <h2>Saturday</h2>
-                            <label for="saturday">Dinner Choice</label>
-                            <select id="diSelect">
-                            <option value="Steak&Potatoes">Steak & Potatoes</option>
-                            <option value="FishTacos">Fish Tacos</option>
-                            <option value="Hamburger">Hamburger</option>
-                            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-                            <option value="ChickenAlfredo">Chicken Alfredo</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+            <h1>Monday</h1>
+            <label for="monday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+            </select>
+            </label>
+        </div>
+        <div class="container">
+            <h1>Tuesday</h1>
+            <label for="tuesday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+            </select>
+            </label>
+        </div>
+        <div class="container">
+        <h1>Wednesday</h1>
+        <label for="wednesday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+        </select>
+        </label>
         </div>
 
-        <div class="row">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <div class="card">
-                            <div class="foodChoices">
-                                <a href="/Assets/docs.html/steak.html" target="Steak">
-                                    <img src="Assets/images/Steak.png" alt="steak dinner image">
-                                    <div class="dinnerCho">Steak, Potatoes & Asparagus</div>
-                                </a>
-                            </div>
-                            <div class="foodChoices">
-                                <a href="Assets/docs.html/fish.html" target="Fish">
-                                    <img src="Assets/images/FishTacos.png" alt="Fish Tacos image">
-                                    <div class="dinnerCho">Fish Tacos</div>
-                                </a>
-                            </div>
-                            <div class='foodChoices'>
-                                <a href="https://www.dominos.com" target="Dominos-Pizza website">
-                                    <img src="Assets/images/Pizza.png" alt="Pizza Dominos link">
-                                    <div class="dinnerCho">Pizza</div>
-                                </a>
-                            </div>
-                           <div class='foodChoices'>
-                                <a href="Assets/docs.html/ham.html" target="Hamburger">
-                                    <img src="Assets/images/Hamburger.png" alt="Hamburger image">
-                                    <div class="dinnerCho">Hamburger & Fries</div>
-                                </a>
-                            </div>
-                            <div class="foodChoices">
-                                <a href="Assets/docs.html/rice.html" target="FriedRice">
-                                    <img src="Assets/images/FriedRice.png" alt="Chicken Fried Rice Image">
-                                    <div class="dinnerCho">Chicken Fried Rice</div>
-                                </a>
-                            </div>
-                            <div class="foodChoices">
-                                <a href="Assets/docs.html/alfr.html" target="ChickenAlfredo">
-                                    <img src="Assets/images/ChickenAlfredo.png" alt="Chicken Alfredo image">
-                                    <div class="dinnerCho">Chicken Alfredo</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+            <h1>Thursday</h1>
+            <label for="thursday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+            </select>
+            </label>
         </div>
 
-   
-    </main>
-    
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <div class="container">
+            <h1>Friday</h1>
+            <label for="friday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+            </select>
+            </label>
+        </div>
 
-<script src="/Assets/JS/script.js"></script>
-
+        <div class="container">
+            <h1>Saturday</h1>
+            <label for="saturday">
+            <select id="diSelect">
+            <option value="Steak&Potatoes">Steak & Potatoes</option>
+            <option value="FishTacos">Fish Tacos</option>
+            <option value="Hamburger">Hamburger</option>
+            <option value="ChickenFriedRice">Chicken Fried Rice</option>
+            <option value="ChickenAlfredo">Chicken Alfredo</option>
+            </select>
+            </label>
+        </div>
+<section class="food">
+        <div class="card">
+            <div class="foodChoices">
+            <a href="/Assets/docs.html/steak.html" target="Steak">
+            <img src="Assets/images/Steak.png" alt="steak dinner image">
+            <div class="dinnerCho">Steak, Potatoes & Asparagus</div>
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="foodChoices">
+            <a href="Assets/docs.html/fish.html" target="Fish">
+            <img src="Assets/images/FishTacos.png" alt="Fish Tacos image">
+            <div class="dinnerCho">Fish Tacos</div>
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <div class='foodChoices'>
+            <a href="https://www.dominos.com" target="Dominos-Pizza website">
+            <img src="Assets/images/Pizza.png" alt="Pizza Dominos link">
+            <div class="dinnerCho">Pizza</div>
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <div class='foodChoices'>
+            <a href="Assets/docs.html/ham.html" target="Hamburger">
+            <img src="Assets/images/Hamburger.png" alt="Hamburger image">
+            <div class="dinnerCho">Hamburger & Fries</div>
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="foodChoices">
+            <a href="Assets/docs.html/rice.html" target="FriedRice">
+            <img src="Assets/images/FriedRice.png" alt="Chicken Fried Rice Image">
+            <div class="dinnerCho">Chicken Fried Rice</div>
+            </a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="foodChoices">
+            <a href="Assets/docs.html/alfr.html" target="ChickenAlfredo">
+            <img src="Assets/images/ChickenAlfredo.png" alt="Chicken Alfredo image">
+            <div class="dinnerCho">Chicken Alfredo</div>
+            </a>
+        </div>
+    </div>
+</section>
+</main>
 </body>
+<script src="Assets/JS/script.js"></script>
 <footer class="container-fluid">
     <p>&copy; 2024 F🍒dLu🍕. All Right Reserved</p>
     <p>Created by team 15...aka F🍒dLu🍕 team</p>
     <a link rel="#">@F🍒dLu🍕.com</a>
 </footer>
+
 </html>
