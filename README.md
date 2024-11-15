@@ -2,7 +2,7 @@
 
 PLACE HOLDER -Replace image
 
-![image] (/Assets/images/ScreenShotForReadMe.png)
+![image] (Assets/images/ScreenShotForReadMe.png)
 
 PLACE HOLDER
 
