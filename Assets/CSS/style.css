@@ -3,78 +3,67 @@
 }
 
 header{
-    background-color: #b35310;
+    background-color:rgb(135, 8, 8);
     font-size: 2em;
     text-align: center;
     justify-content: center;
-    text-shadow: rgb(32, 62, 2) 2px 4px 7px;
-    color: rgb(108, 58, 49);
-    border-top: #7c0404 100px solid;
-    border-bottom: rgb(150, 67, 7) 15px solid;
-}  
+    color: rgb(187, 116, 16);
+    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
+    border-top: rgb(90, 5, 5) 20px solid;
+    border-bottom: rgb(218, 27, 43) 15px solid;
+} 
 
 body {
     margin: auto;
     padding: auto;
     height: 100vh;
     width: 100%;
-    color: rgb(110, 14, 4);
+    color: rgb(150, 25, 11);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:  (rgba(16, 92, 111, 0.773) 20%, rgba(3, 50, 96, 0.706) 30%, rgba(6, 1, 67, 0.807) 60%);
 }
 
 main {
-    box-sizing: border-box;
-    height: 2200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2000px;
     width: 100%;
-    background: radial-gradient(rgba(233, 180, 5, 0.475) 20%, rgba(155, 65, 5, 0.761) 30%, rgba(75, 2, 2, 0.718) 60%); 
+    background: radial-gradient(rgba(116, 90, 3, 0.874) 10%, rgba(88, 37, 2, 0.94) 30%, rgba(55, 1, 1, 0.994) 60%); 
     justify-content: space-evenly;
 }
 
-.col-md{
-    height: 100%;
-    width: 50%;
-}
-
 .container {
-    display: flex;
     font-size: 20px;
     text-shadow: rgba(50, 3, 3, 0.893) 0px, 0px, 10px;
-    justify-content:center;
-    font-weight: bolder;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
 .card {
-    padding: 16px;
+    padding: 40px 40px 40px 40px;
     background-color: rgba(123, 26, 9, 0.797);
-    text-align: left;
-    font-size: .4em;
+    text-align: center;
+    font-size: 1.5em;
     height: 560px;
     width: 530px;
-    border-style: double 5px #e8c165;
+    border: 5px solid #bc8505;
     border-radius: 15px;
-    box-shadow: rgb(20, 21, 20) 0px 0px 10px;
 }
 
 .card:hover {
     cursor: pointer;
     box-shadow: rgb(218, 206, 149) 1px 6px 10px;
 }
-label {
-    color: rgba(31, 44, 13, 0.881);
-    text-shadow: rgb(10, 152, 170) 0px 0px 8px;
-    text-align:left;
-    font-size: 2em;
-    font-weight: bolder;
-    border-radius: 2px;
-}
 
 .foodChoices {
-    color: #f8ee32;
-    text-align:left;
-    font-size: 2em;
-    height: 500px;
-    width: 490px;
+    color: #7c4a09;
+    text-align:center;
+    font-size: .8em;
+    height: 550px;
+    width: 540px;
     border: 5px solid #bc8505;
     border-radius: 15px;
     box-shadow: rgb(20, 21, 20) 6px 6px 10px;
@@ -82,32 +71,24 @@ label {
 
 
 select {
-    background-color: rgba(182, 226, 121, 0.881);
-    text-shadow: rgba(235, 204, 132, 0.886) 0px 0px 10px;
-    font-size: 2.5em;
+    background-color: rgba(226, 157, 61, 0.881);
+    font-size: 3em;
     font-weight: bolder;
     border-radius: 20px;
 }
 
-option {
-    font-size: 1em;
-    border: none;
-    border-radius: 2px;
-}
-
 h1 {
     font-size: 4em;
-    text-align: center;
-    text-shadow: rgba(247, 232, 61, 0.886) 3px 6px 8px;
+    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
 }
+
 
 img {
     margin: auto;
-    padding: 6px;
     justify-content: center;
     border-radius: 8px;
-    width: 480px;
-    height: 420px;
+    width: 530px;
+    height: 460px;
     border-radius: 20px;
 }
 
@@ -128,7 +109,7 @@ p {
 h2 {
     font-size: 2em;
     text-align: center;
-    text-shadow: rgba(236, 197, 88, 0.886) 2px 4px 8px;
+    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
 }
 
 .foodChoices:hover {
@@ -136,19 +117,16 @@ h2 {
     box-shadow: rgb(218, 206, 149) 3px 8px 8px;
 }
 
-.steak-link.steak-link:click {
-    border: 5px solid #211f1f;
-}
-
 a {
-    font-size: 1em;
+    font-size: 2em;
+    font-weight: bolder;
     /* text-decoration: none; */
-    color: rgb(220, 190, 59);
+    color: rgb(218, 142, 84);
     border-radius: 20px;
 }
 
 #goBack {
-    font-size: 5em;
+    font-size: 1em;
     background-color: #7c0404;
     padding: 1px;
     font-size: 2em;
@@ -171,21 +149,13 @@ a {
     box-shadow: rgb(20, 21, 20) 3px 2px 4px;
 }
 
-#modal{
-    font-size: 2em;
-    background-color: rgba(77, 182, 231, 0.881);
-    border-radius: 10px;
-    border: 4px solid #81f230;
-    height: 20px;
-    width: 20px;
-}
-
 #goBack:hover{
+    color: rgb(218, 142, 84);
     text-decoration: none;
-    background-color: #76e43b;
-    border: solid 2px #292721;
+    background-color: #1c1b10;
+    border: solid 2px #a17c0c;
     cursor: pointer;
-    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
 }
 
 #print:hover{
@@ -198,27 +168,29 @@ a {
 #modal:hover {
     border: solid 2px #292721;
     cursor: pointer;
-    box-shadow: rgb(248, 222, 93) 3px 8px 8px;
+    box-shadow: rgb(171, 118, 57) 3px 8px 8px;
 }
 
 footer {
+    margin-top: -40px;
     font-size: 1em;
-    background-color: #333;
-    color: white;
+    border-bottom: #1f0202  40px solid;
+    background-color: #2e0404;
+    color: rgb(233, 152, 86);
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
     body {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     main {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
 }
