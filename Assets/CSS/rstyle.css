@@ -1,6 +1,4 @@
 
-
-
 header{
     padding-left: 20px;
     background-color:rgb(135, 8, 8);
@@ -73,7 +71,7 @@ a {
     box-shadow: rgb(20, 21, 20) 3px 2px 4px;
 }
 
-#email {
+/* #emailMod {
     width: 100px;
     height: 80px;
     background-color: #ebbd3db4;
@@ -84,7 +82,7 @@ a {
     border: 2px solid #292721;
     border-radius: 15px;
     box-shadow: rgb(20, 21, 20) 3px 2px 4px;
-}
+} */
 
 #goBack:hover{
     color: rgb(218, 142, 84);
@@ -102,13 +100,13 @@ a {
     box-shadow: rgb(214, 200, 129) 3px 8px 8px;
 }
 
-#email:hover{
+/* #emailMod:hover{
     color: rgba(236, 197, 88, 0.886);
     background-color: #067695;
     border: solid 2px #292721;
     cursor: pointer;
     box-shadow: rgb(214, 200, 129) 3px 8px 8px;
-}
+} */
 
 
 footer {
@@ -132,5 +130,14 @@ footer {
     main {
         flex-direction: column;
         width: 100%;
+    }
+}
+
+@media print {
+    body {
+        font-size: 2em;
+    }
+    #print {
+        display: none; /* Hide the print button when printing */
     }
 }
