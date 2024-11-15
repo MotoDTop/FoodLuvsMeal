@@ -2,14 +2,13 @@
 
 PLACE HOLDER -Replace image
 
-![image of place holder for image] (Assets/image/image4readMe.png)
+![image] (/Assets/images/ScreenShotForReadMe.png)
 
-PLACE HOLDER 
+PLACE HOLDER
 
-Meal Planning 
+Meal Planning
+
 ## Description
-
-
 
 For busy people who don't have a lot of time, this web site provides a meal & grocery planner to simplify their busy schedule.
 
