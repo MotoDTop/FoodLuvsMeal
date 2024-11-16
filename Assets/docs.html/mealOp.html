@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/mstyle.css"/>
+    <title>Meal Options Modal</title>
+</head>
+<body>
+
+    <header>
+        <p>F🍒dLu🍕</p>
+        <h1>Meal Options</h1>
+        <button id="goBack">
+            <a href="/index.html" target="_parent">Go Back - To Weekly Planner Home Page</a>
+        </button>
+        <br>
+    </header>
+    <br>
+
+    <button id="openModal">Meal Options</button>
+    <div id="myModal" class="modal">
+<br>
+        <div class="modal-content">
+        <span class="close">🍽️</span>
+        <form id="mealForm">
+        <label for="input">Meal Choices (Enter a number between 5 and 10):</label>
+        <input type="number" id="inputA" name="mealChoice" min="5" max="10" value= "5"> 
+        <br>
+<br>
+        <label>Take Out Options:</label><br>
+        <input type="radio" id="delivery" name="takeOut" value="Delivery">
+        <label for="delivery">Delivery</label><br>
+        <input type="radio" id="pickup" name="takeOut" value="Pickup">
+        <label for="pickup">Pickup</label><br>
+<br>   
+        <label>Vegetarian Options:</label><br>
+        <input type="radio" id="vegetarian" name="vegetarian" value="Vegetarian">
+        <label for="vegetarian">Vegetarian</label><br>
+        <input type="radio" id="nonVegetarian" name="vegetarian" value="Non-Vegetarian">
+        <label for="nonVegetarian">Non-Vegetarian</label><br>
+<br>        
+        <label>30 Minute Meals:</label><br>
+        <input type="radio" id="meal1" name="thirtyMinuteMeals" value="Meal 1">
+        <label for="meal1">Meal 1</label><br>
+        <input type="radio" id="meal2" name="thirtyMinuteMeals" value="Meal 2">
+        <label for="meal2">Meal 2</label><br>
+<br>
+        <label>Protein:</label><br>
+        <input type="radio" id="Fish" name="protein type" value="fish">
+        <label for="Fish">Fish</label><br>
+        <input type="radio" id="Beef" name="protein type" value="Beef">
+        <label for="Beef">Beef</label><br>
+        <input type="radio" id="meal2" name="protein type" value="chicken">
+        <label for="Chicken">Chicken</label><br>
+<br>
+        <label>Cost:</label><br>
+        <input type="radio" id="$$$" name="Expensive" value="$$$">
+        <label for="Cost">💰💰💰</label><br>
+        <input type="radio" id="$$" name="Moderate" value="$$">
+        <label for="Cost">💰💰</label><br>
+        <input type="radio" id="$" name="Cheep" value="$">
+        <label for="Cost">💰</label><br>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+        </form>
+        </form>
+        </div>
+    </div> 
+
+    <script src="/Assets/JS/script.js"></script>
+</body>
+</html>

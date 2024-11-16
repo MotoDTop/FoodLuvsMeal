@@ -3,7 +3,7 @@
 Screen Shot of Website
 ![image] (Assets/images/ScreenShotForReadMe.png)
 
-Meal Planning
+Weekly Meal Planning
 
 ## Description
 
@@ -19,10 +19,10 @@ We are building this website to help other people prepare their meals. Our websi
 ## Usage
 
 Once on the website
-Select the dropdown arrow for each day and select your desired meal.
-A list of ingredients will appear bellow each meal
-If you already have some of the ingredients, select them (this will remove them from the shopping list}.
-Your weekly shopping list will be present at the bottom of the page, excluding the items you selected in the previous step.
+a person will be able to choose between vegetarian meals, 30 minuet meals, number of preselected meals, and the option to have takeout menus and links to doordash for delivery. They will also be able to select which meals are their favorite.
+For the week view one can select the meal for that day from the preselected options by dropdown box. The meal choices will be stored in local storage each time they make a change.
+From the meal choices they will be able to click on the option and be taken to the recipe and cooking instructions with the option to print the page.
+A future feature will provide the person with a weekly shopping list for all the meals selected and provide a link to text themselves a shopping list for their phone.
 
 ## Credits
 
@@ -31,11 +31,16 @@ Worth Wenger - github.com/Pill-w
 Garret Turner - github.com/Condor2665
 Derek Topham - github.com/MotoDt
 
-Third-party assets;
-Boostrap for CSS styling
+## Third-party assets;
 
-Special thanks to;
-We basked in the light of Logan and his endless edification.
+Boostrap for CSS styling,
+Xpert Learning Assistant - for code "suggestions".
+
+## Special thanks to;
+
+Logan Garland - We basked in the enlightenment of our fearless instructor and for his endless edification.
+Michael Seaman - For his tireless efforts to help us succeed, problem solving skills, all served with boundless patience.
+Anthony Pillow - For his wise guidance and helpful incites.
 
 ## License
 
