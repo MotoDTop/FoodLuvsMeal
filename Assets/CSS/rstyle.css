@@ -1,0 +1,143 @@
+
+header{
+    padding-left: 20px;
+    background-color:rgb(135, 8, 8);
+    font-size: 2em;
+    text-align: left;
+    color: rgb(187, 116, 16);
+    text-shadow: rgb(39, 8, 8) 2px, 4px, 10px;
+    border-top: rgb(90, 5, 5) 20px solid;
+    border-bottom: rgb(218, 27, 43) 15px solid;
+} 
+
+body {
+    margin: auto;
+    padding: auto;
+    background-image: url("/Assets/images/background2.png");
+    background-size: contain;
+}
+
+pre{
+    color: black;
+    font-size: 2em;
+    font-size: 3em;
+    text-align: left;
+
+}
+
+p {
+    font-size: 1.6em;
+    font-weight: bolder;
+    color: #1f0202;
+    text-align: left;
+    text-shadow: rgba(236, 197, 88, 0.886) 2px 4px 8px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    /* text-decoration: none; */
+    color: rgb(242, 69, 30);
+}
+
+
+#goBack {
+    text-decoration: none;
+    font-size: 1em;
+    background-color: #cfa210b5;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+
+#print {
+    width: 100px;
+    height: 80px;
+    background-color: #ebbd3db4;
+    color: rgb(148, 11, 11);
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid #292721;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+/* #emailMod {
+    width: 100px;
+    height: 80px;
+    background-color: #ebbd3db4;
+    color: rgb(148, 11, 11);
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 2px solid #292721;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+} */
+
+#goBack:hover{
+    color: rgb(218, 142, 84);
+    text-decoration: none;
+    background-color: #b6ab3a68;
+    border: solid 2px #a17c0c;
+    cursor: pointer;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
+}
+
+#print:hover{
+    background-color: #76e43b;
+    border: solid 2px #292721;
+    cursor: pointer;
+    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
+}
+
+/* #emailMod:hover{
+    color: rgba(236, 197, 88, 0.886);
+    background-color: #067695;
+    border: solid 2px #292721;
+    cursor: pointer;
+    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
+} */
+
+
+footer {
+    margin-top: -40px;
+    font-size: 1em;
+    border-bottom: #1f0202  40px solid;
+    background-color: #2e0404;
+    color: rgb(233, 152, 86);
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media print {
+    body {
+        font-size: 2em;
+    }
+    #print {
+        display: none; /* Hide the print button when printing */
+    }
+}

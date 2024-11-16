@@ -8,9 +8,9 @@ header{
     text-align: center;
     justify-content: center;
     color: rgb(187, 116, 16);
-    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
     border-top: rgb(90, 5, 5) 20px solid;
     border-bottom: rgb(218, 27, 43) 15px solid;
+    z-index: 1;
 } 
 
 body {
@@ -29,6 +29,10 @@ main {
     width: 100%;
     background: radial-gradient(rgba(116, 90, 3, 0.874) 10%, rgba(88, 37, 2, 0.94) 30%, rgba(55, 1, 1, 0.994) 60%); 
     justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 .container {
@@ -77,12 +81,6 @@ select {
     border-radius: 20px;
 }
 
-h1 {
-    font-size: 4em;
-    text-shadow: rgba(46, 5, 5, 0.893) 2px, 4px, 10px;
-}
-
-
 img {
     margin: auto;
     justify-content: center;
@@ -103,7 +101,7 @@ pre{
 p {
     font-size: 2em;
     text-align: center;
-    text-shadow: rgba(236, 197, 88, 0.886) 2px 4px 8px;
+    text-shadow: rgba(142, 108, 14, 0.886) 2px 4px 8px;
 }
 
 h2 {
@@ -118,9 +116,9 @@ h2 {
 }
 
 a {
+    text-decoration: none;
     font-size: 2em;
     font-weight: bolder;
-    /* text-decoration: none; */
     color: rgb(218, 142, 84);
     border-radius: 20px;
 }
@@ -138,10 +136,9 @@ a {
 
 #print {
     width: 100px;
-    height: 60px;
+    height: 80px;
     background-color: #b38813;
     color: rgb(148, 11, 11);
-    padding: 1px;
     font-size: 2em;
     cursor: pointer;
     border: 2px solid #292721;
@@ -176,7 +173,7 @@ footer {
     font-size: 1em;
     border-bottom: #1f0202  40px solid;
     background-color: #2e0404;
-    color: rgb(233, 152, 86);
+    color: rgb(222, 137, 68);
     text-align: center;
     width: 100%;
 }
