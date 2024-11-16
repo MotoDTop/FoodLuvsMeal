@@ -1,0 +1,145 @@
+
+header{
+    padding-left: 20px;
+    background-color:rgb(135, 8, 8);
+    font-size: 2em;
+    text-align: left;
+    color: rgb(187, 116, 16);
+    text-shadow: rgb(39, 8, 8) 2px, 4px, 10px;
+    border-top: rgb(90, 5, 5) 20px solid;
+    border-bottom: rgb(218, 27, 43) 15px solid;
+} 
+
+body {
+    margin: auto;
+    padding: auto;
+    background-image: url("/Assets/images/background2.png");
+    background-size: contain;
+}
+.myModal {
+    display: none;
+    justify-content: left;
+    position: absolute;
+    text-align: left;
+    z-index: 1; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(58, 53, 53); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+.modal-content {
+    font-size: 1.8em;
+    height: 900px;
+    width: 550px;
+    text-align: left;
+    background-color: rgb(85, 214, 10);
+    justify-content: left; 
+
+    padding: 20px;
+    border: 3px solid rgb(20, 20, 20);
+    border-radius: 15px;
+    width: 98%; 
+}
+  
+.close {
+    color: rgb(68, 8, 12);
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+}
+  
+.close:hover{
+    font-size: 1.5em;
+    color: rgb(14, 14, 13);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:focus {
+    font-size: 1.5em;
+    color: rgb(125, 154, 7);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#submit {
+    float:right;
+    background-color: rgb(119, 90, 90);
+    padding: 1px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+#openModal {
+    background-color: rgb(151, 46, 7);
+    padding: 1px;
+    font-size: 3em;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+#openModal:hover{
+    color: rgb(4, 37, 109);
+    text-decoration: none;
+    background-color: rgb(197, 182, 13);
+    border: solid 2px rgb(161, 124, 12);
+    cursor: pointer;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
+}
+
+#submit:hover{
+    text-decoration: none;
+    background-color: rgb(28, 27, 16);
+    border: solid 2px rgb(161, 124, 12);
+    cursor: pointer;
+    box-shadow: rgb(245, 112, 3) -4px 8px 6px;
+    box-shadow: rgb(249, 217, 9) -5px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    /* text-decoration: none; */
+    color: rgb(242, 69, 30);
+}
+
+#goBack {
+    font-size: 1em;
+    text-decoration: none;
+    background-color: rgb(71, 198, 11);
+    padding: 1px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+
+#goBack:hover{
+    color: rgb(218, 142, 84);
+    text-decoration: none;
+    background-color: #1c1b10;
+    border: solid 2px #a17c0c;
+    cursor: pointer;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
+}
+
+#print:hover{
+    background-color: #76e43b;
+    border: solid 2px #292721;
+    cursor: pointer;
+    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .modal-content {
+        width: 80%;
+    }
+    
+}
