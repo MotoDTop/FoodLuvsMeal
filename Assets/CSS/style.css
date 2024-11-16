@@ -10,7 +10,6 @@ header{
     color: rgb(187, 116, 16);
     border-top: rgb(90, 5, 5) 20px solid;
     border-bottom: rgb(218, 27, 43) 15px solid;
-    z-index: 1;
 } 
 
 body {
@@ -25,7 +24,7 @@ body {
 main {
     display: flex;
     flex-wrap: wrap;
-    height: 2000px;
+    height: 1800px;
     width: 100%;
     background: radial-gradient(rgba(116, 90, 3, 0.874) 10%, rgba(88, 37, 2, 0.94) 30%, rgba(55, 1, 1, 0.994) 60%); 
     justify-content: space-evenly;
@@ -123,9 +122,87 @@ a {
     border-radius: 20px;
 }
 
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 50%; 
+    height: 50%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; 
+}
+  
+.close {
+    color: rgb(68, 8, 12);
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+}
+  
+.close:hover{
+    font-size: 1.5em;
+    color: rgb(125, 154, 7);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close:focus {
+    font-size: 1.5em;
+    color: rgb(125, 154, 7);
+    text-decoration: none;
+    cursor: pointer;
+}
+#submit {
+    background-color: rgb(119, 90, 90);
+    padding: 1px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+#openModal {
+    background-color: rgb(151, 46, 7);
+    padding: 1px;
+    font-size: .5em;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+#openModal:hover{
+    color: rgb(4, 37, 109);
+    text-decoration: none;
+    background-color: rgb(197, 182, 13);
+    border: solid 2px rgb(161, 124, 12);
+    cursor: pointer;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
+}
+
+#submit:hover{
+    color: rgb(218, 142, 84);
+    text-decoration: none;
+    background-color: rgb(28, 27, 16);
+    border: solid 2px rgb(161, 124, 12);
+    cursor: pointer;
+    box-shadow: rgb(196, 175, 74) 3px 8px 8px;
+}
+
+
 #goBack {
     font-size: 1em;
-    background-color: #7c0404;
+    background-color: rgb(124, 4, 4);
     padding: 1px;
     font-size: 2em;
     cursor: pointer;
