@@ -1,10 +1,7 @@
 # FoodLuvsMeal
 
-PLACE HOLDER -Replace image
-
+Screen Shot of Website
 ![image] (Assets/images/ScreenShotForReadMe.png)
-
-PLACE HOLDER
 
 Meal Planning
 
