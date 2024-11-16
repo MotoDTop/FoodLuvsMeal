@@ -5,7 +5,6 @@ document.getElementById('print').addEventListener('click', function() {
 
 var modal = document.getElementById("myModal");
 
-// var btn = document.getElementById("openModal");
 
 var span = document.getElementsByClassName("close")[0];
 
