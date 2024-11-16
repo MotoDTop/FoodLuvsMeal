@@ -9,8 +9,31 @@
     <title>Weekly Meal Planner</title>
 </head>
 <header>
-    <p>F🍒dLu🍕</p>
-    <h1>Weekly Meal Planner<h1>
+<p>F🍒dLu🍕</p>
+<h1>Weekly Meal Planner<h1>
+    <!-- <button id="openModal">Meal Options</button> -->
+    <button id="openModal" onclick="openModal()">Meal Options</button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+        <span class="close">Close</span>
+        <form id="mealForm">
+        <label for="number of meal choices">Meal Choices</label>
+            <input type="number" min="1" max="10" value= "5"> 
+        <br>
+        <label for="Take Out">Take Out Options</label>  
+            <input type="radio" name="Take Out" value="Take Out">
+        <br>
+        <label for="Vegetarian">Vegetarian Options</label>
+            <input type="radio" name="Vegetarian" value="Vegetarian">
+            <input type="radio" name="Vegetarian" value="non-Vegetarian">
+        </label><br>
+        <label for="30 min meals">30 Minute Meals</label>
+            <input type="radio" name="30 Minute Meals" value="30 Minute Meals">
+        <br>
+        <button type="submit" id="submit">Submit</button>
+        </form>
+        </div>
+    </div>
 </header>
 <body>
     <main>
@@ -89,6 +112,7 @@
             </select>
             </label>
         </div>
+
 <section class="food">
         <div class="card">
             <div class="foodChoices">
@@ -139,10 +163,12 @@
         </div>
     </div>
 </section>
+
 </main>
-</body>
 <script src="Assets/JS/script.js"></script>
-<footer class="container-fluid">
+</body>
+
+<footer class="container">
     <p>&copy; 2024 F🍒dLu🍕. All Right Reserved</p>
     <p>Created by team 15...aka F🍒dLu🍕 team</p>
     <a link rel="#">@F🍒dLu🍕.com</a>

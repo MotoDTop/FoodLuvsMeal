@@ -46,6 +46,25 @@ a {
     color: rgb(242, 69, 30);
 }
 
+#favorite {
+    width: 200px;
+    height: 80px;
+    background-color: gray;
+    color: rgb(43, 11, 11);
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 4px solid #f30707;
+    border-radius: 15px;
+    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
+}
+
+#favorite:hover{
+    border: solid 2px #7eda06;
+    cursor: pointer;
+    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
+}
+
 
 #goBack {
     text-decoration: none;
@@ -71,19 +90,6 @@ a {
     box-shadow: rgb(20, 21, 20) 3px 2px 4px;
 }
 
-/* #emailMod {
-    width: 100px;
-    height: 80px;
-    background-color: #ebbd3db4;
-    color: rgb(148, 11, 11);
-    font-size: 2em;
-    font-weight: bolder;
-    cursor: pointer;
-    border: 2px solid #292721;
-    border-radius: 15px;
-    box-shadow: rgb(20, 21, 20) 3px 2px 4px;
-} */
-
 #goBack:hover{
     color: rgb(218, 142, 84);
     text-decoration: none;
@@ -99,14 +105,6 @@ a {
     cursor: pointer;
     box-shadow: rgb(214, 200, 129) 3px 8px 8px;
 }
-
-/* #emailMod:hover{
-    color: rgba(236, 197, 88, 0.886);
-    background-color: #067695;
-    border: solid 2px #292721;
-    cursor: pointer;
-    box-shadow: rgb(214, 200, 129) 3px 8px 8px;
-} */
 
 
 footer {
