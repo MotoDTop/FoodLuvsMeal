@@ -70,8 +70,8 @@ a{
 
 body{
     width: 100%;
-    height: auto;
-    background: radial-gradient(rgba(233, 180, 5, 0.475) 5%, rgba(155, 65, 5, 0.761) 10%, rgb(81, 1, 1) 60%);
+    /* height: 70%; */
+    background-color: bisque;
     
 }
 #modalBtn {
@@ -233,10 +233,10 @@ a:hover{
     }
     header{
         font-size: .5rem;
-        background-color: rgb(27, 196, 86);
+        background-color:rgb(4, 117, 117)
     }
     body {
-        background-color: rgb(43, 154, 154)
+        background-color: rgb(172, 110, 3)
     }
     .container {
         background-color: rgb(41, 224, 163);
