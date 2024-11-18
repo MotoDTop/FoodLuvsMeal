@@ -1,5 +1,5 @@
 
-header{
+ header{
     padding-left: 20px;
     background-color:rgb(135, 8, 8);
     font-size: 2em;
@@ -8,7 +8,7 @@ header{
     text-shadow: rgb(39, 8, 8) 2px, 4px, 10px;
     border-top: rgb(90, 5, 5) 20px solid;
     border-bottom: rgb(218, 27, 43) 15px solid;
-} 
+}  
 
 body {
     margin: auto;
