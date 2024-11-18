@@ -18,6 +18,11 @@ body {
 }
 
 pre{
+    font-size: 2em;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-shrink: 1;
     color: black;
     font-size: 2em;
     font-size: 3em;
@@ -117,17 +122,38 @@ footer {
     width: 100%;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
     body {
         flex-direction: column;
         width: 100%;
     }
+    pre{
+        font-size: 3em;
+    }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     main {
         flex-direction: column;
         width: 100%;
+    }
+    pre{
+        font-size: 5em;
+    }
+    #favorite {
+        width: 200px;
+        height: 80px;
+        font-size: 1em;
+    }
+    #goBack {
+        width: 200px;
+        height: 80px;
+        font-size: 1em;
+    }
+    #print {
+        width: 200px;
+        height: 80px;
+        font-size: 1em;
     }
 }
 

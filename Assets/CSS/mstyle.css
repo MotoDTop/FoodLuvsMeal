@@ -1,8 +1,10 @@
 
+
 header{
+
     padding-left: 20px;
     background-color:rgb(135, 8, 8);
-    font-size: 2em;
+    font-size: 1em;
     text-align: left;
     color: rgb(187, 116, 16);
     text-shadow: rgb(39, 8, 8) 2px, 4px, 10px;
@@ -22,31 +24,29 @@ body {
     position: absolute;
     text-align: left;
     z-index: 1; 
-    width: 100%; 
-    height: 100%; 
-    overflow: auto;
+    width: 80%; 
+    height: 80%; 
     background-color: rgb(58, 53, 53); 
     background-color: rgba(0,0,0,0.4); 
 }
   
 .modal-content {
-    font-size: 1.8em;
-    height: 900px;
-    width: 550px;
+    font-size: 1em;
+    height: 600px;
+    width: 450px;
     text-align: left;
     background-color: rgb(85, 214, 10);
-    justify-content: left; 
-
+    justify-content: center; 
     padding: 20px;
     border: 3px solid rgb(20, 20, 20);
     border-radius: 15px;
-    width: 98%; 
+    width: 50%; 
 }
   
 .close {
     color: rgb(68, 8, 12);
     float: right;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: bold;
 }
   
@@ -129,17 +129,49 @@ a {
     box-shadow: rgb(196, 175, 74) 3px 8px 8px;
 }
 
-#print:hover{
+/* #print:hover{
     background-color: #76e43b;
     border: solid 2px #292721;
     cursor: pointer;
     box-shadow: rgb(214, 200, 129) 3px 8px 8px;
-}
+} */
 
 
-@media screen and (max-width: 300px) {
-    .modal-content {
-        width: 80%;
+@media screen and (max-width: 2000px) {
+    body {
+        flex: 1 1 100%;
     }
-    
+    .myModal {
+        flex: 1 1 100%;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    #goBack {
+        flex: 1 1 100%;
+    }
+    a {
+        width: 260px;
+        height: 40px;
+        font-size: 1em;
+    }
+}
+@media screen and (man-width: 600px) {
+    body {
+        flex: 1 1 100%;
+    }
+    .myModal {
+        flex: 1 1 100%;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    #goBack {
+        flex: 1 1 100%;
+    }
+    a {
+        width: 260px;
+        height: 40px;
+        font-size: 1em;
+    }
 }

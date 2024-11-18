@@ -3,114 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="reset.stylesheet" href="reset.css"/>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/> -->
-    <link rel="stylesheet" href="Assets/CSS/style.css"/>    
+    <link rel="reset.stylesheet" href="/reset.css"/>
+    <link rel="stylesheet" href="/style.css"/>    
     <title>Weekly Meal Planner</title>
 </head>
 <header>
-<p>F🍒dLu🍕</p>
+<h2>F🍒dLu🍕</h2>
 <h1>Weekly Meal Planner<h1>
-    <button id="mealChoice">
-        <a href="/Assets/docs.html/mealOp.html" target="">Meal Options</a>
-    </button>
-</header>
+<h2>Choose your meals for the week!</h2>
+    <button id="modalBtn">Meal Options</button>
+    </header>
 <body>
-    <main>
-        <div class="container">
-            <h1>Monday</h1>
-            <label>
-            <select id="diSelectM">
-            <option value="Nothing Selected">Nothing Selected</option>
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
-            </select>
-            </label>
+    <section>
+
+    
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+                <span class="close">🍽️</span>
+                <form id="mealForm">
+                <label for="input">Meal Choices (Enter a number between 5 and 10):</label>
+                <input type="number" id="inputA" name="mealChoice" min="5" max="10" value= "5"> 
+                <br>
+        <br>
+                <label>Take Out Options:</label><br>
+                <input type="radio" id="delivery" name="takeOut" value="Delivery">
+                <label for="delivery">Delivery</label><br>
+                <input type="radio" id="pickup" name="takeOut" value="Pickup">
+                <label for="pickup">Pickup</label><br>
+        <br>   
+                <label>Vegetarian Options:</label><br>
+                <input type="radio" id="vegetarian" name="vegetarian" value="Vegetarian">
+                <label for="vegetarian">Vegetarian</label><br>
+                <input type="radio" id="nonVegetarian" name="vegetarian" value="Non-Vegetarian">
+                <label for="nonVegetarian">Non-Vegetarian</label><br>
+        <br>        
+                <label>30 Minute Meals:</label><br>
+                <input type="radio" id="meal1" name="thirtyMinuteMeals" value="Meal 1">
+                <label for="meal1">Microwave</label><br>
+                <input type="radio" id="meal2" name="thirtyMinuteMeals" value="Meal 2">
+                <label for="meal2">Air Frier</label><br>
+        <br>
+                <label>Protein:</label><br>
+                <input type="radio" id="Fish" name="protein type" value="fish">
+                <label for="Fish">Fish</label><br>
+                <input type="radio" id="Beef" name="protein type" value="Beef">
+                <label for="Beef">Beef</label><br>
+                <input type="radio" id="meal2" name="protein type" value="chicken">
+                <label for="Chicken">Chicken</label><br>
+        <br>
+                <label>Cost:</label><br>
+                <input type="radio" id="$$$" name="Expensive" value="$$$">
+                <label for="Cost">💰💰💰</label><br>
+                <input type="radio" id="$$" name="Moderate" value="$$">
+                <label for="Cost">💰💰</label><br>
+                <input type="radio" id="$" name="Cheep" value="$">
+                <label for="Cost">💰</label><br>
+                <br>
+                <button type="submit" id="submit">Submit</button>
+                </form>
+                </form>
+                </div>
+            </div> 
         </div>
-        <div class="container">
-            <h1>Tuesday</h1>
-            <label>
-            <select id="diSelectTu">
-            <option value="Nothing Selected">Nothing Selected</option>    
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
-            </select>
-            </label>
-        </div>
-        <div class="container">
-        <h1>Wednesday</h1>
+    </div>
+    </section>
+
+    <div class="container">
+        <div class="day">
+        <h1>Sunday</h1>
         <label>
-            <select id="diSelectW">
-            <option value="Nothing Selected">Nothing Selected</option>
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
         </select>
         </label>
         </div>
-
-        <div class="container">
-            <h1>Thursday</h1>
-            <label>
-            <select id="diSelectR">
-            <option value="Nothing Selected">Nothing Selected</option>
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
-            </select>
-            </label>
+    
+        <div class="day">
+        <h1>Monday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
         </div>
-
-        <div class="container">
-            <h1>Friday</h1>
-            <label>
-            <select id="diSelectF">
-            <option value="Nothing Selected">Nothing Selected</option>
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
-            </select>
-            </label>
+        <div class="day">
+        <h1>Tuesday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
         </div>
-
-        <div class="container">
-            <h1>Saturday</h1>
-            <label>
-            <select id="diSelectS">
-            <option value="Nothing Selected">Nothing Selected</option>
-            <option value="Steak&Potatoes">Steak & Potatoes</option>
-            <option value="FishTacos">Fish Tacos</option>
-            <option value="Hamburger">Hamburger</option>
-            <option value="ChickenFriedRice">Chicken Fried Rice</option>
-            <option value="ChickenAlfredo">Chicken Alfredo</option>
-            <option value="Pizza">Pizza</option>
-            </select>
-            </label>
+        <div class="day">
+        <h1>Wednesday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
         </div>
+        <div class="day">
+        <h1>Thursday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
+        </div>
+        <div class="day">
+        <h1>Friday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
+        </div>
+        <div class="day">
+        <h1>Saturday</h1>
+        <label>
+        <select>
+        <option value="Nothing Selected">Nothing Selected</option>
+        <option value="Steak&Potatoes">Steak & Potatoes</option>
+        <option value="FishTacos">Fish Tacos</option>
+        <option value="Hamburger">Hamburger</option>
+        <option value="ChickenFriedRice">Chicken Fried Rice</option>
+        <option value="ChickenAlfredo">Chicken Alfredo</option>
+        <option value="Pizza">Pizza</option>
+        </select>
+        </label>
+        </div>
+    </div>
 
-<section class="food">
+<main>
+    <div class="food">
         <div class="card">
             <div class="foodChoices">
             <a href="/Assets/docs.html/steak.html" target="Steak">
             <img src="Assets/images/Steak.png" alt="steak dinner image">
-            <div class="dinnerCho">Steak, Potatoes & Asparagus</div>
+            <div class="dinnerCho">Steak & Potatoes</div>
             </a>
         </div>
     </div>
@@ -154,16 +221,16 @@
             </a>
         </div>
     </div>
-</section>
+    </section>
 
 </main>
-<script src="Assets/JS/script.js"></script>
+<script src="/script.js"></script>
 </body>
 
-<footer class="container">
-    <p>&copy; 2024 F🍒dLu🍕. All Right Reserved</p>
-    <p>Created by team 15...aka F🍒dLu🍕 team</p>
-    <a link rel="#">@F🍒dLu🍕.com</a>
+
+<footer>
+    <h3>Created by: F🍒dLu🍕</h3>
+
 </footer>
 
 </html>
