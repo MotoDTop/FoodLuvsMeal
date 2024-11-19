@@ -15,7 +15,7 @@ header{
 body {
     margin: auto;
     padding: auto;
-    background-image: url("/Assets/images/background2.png");
+    background-image: url("../images/background2.png");
     background-size: contain;
 }
 .myModal {
