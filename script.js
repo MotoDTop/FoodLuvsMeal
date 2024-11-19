@@ -98,5 +98,14 @@ const dinners = [
   // Call the function to load the selections when the page loads
   window.onload = loadSelections;
 
+// document.getElementById("mealModal").onsubmit = function(event) {
+//   event.preventDefault();
+//   const selectedOption = document.querySelector('input[name="Vegetarian"]:checked');
+//   if (selectedOption) {
+
+//   } else {
+//     alert("Please select an option.");
+//   }
+// }
 
 
