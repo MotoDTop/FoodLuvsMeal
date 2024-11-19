@@ -1,40 +1,40 @@
-// document.getElementById('print').addEventListener('click', function() {
-//   window.print();
-// });
 
 var modal = document.getElementById("myModal");
 
-// Get open modal button
 var btn = document.getElementById("modalBtn");
 
-// Get close button
 var span = document.getElementsByClassName("close")[0];
 
-// Open modal
 btn.onclick = function() {
     modal.style.display = "block";
 }
 
-// Close modal
 span.onclick = function() {
     modal.style.display = "none";
 }
 
-// Close modal when clicking outside of it
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
 }
 
-// Handle form submission
 document.getElementById("modalForm").onsubmit = function(event) {
     event.preventDefault();
-    // Process form data here
-    alert("Form submitted!");
-    modal.style.display = "none"; // Close modal after submission
+
+
+    modal.style.display = "none";
 }
 
+// document.getElementById("mealModal").onsubmit = function(event) {
+//   event.preventDefault();
+//   const selectedOption = document.querySelector('input[name="Vegetarian"]:checked');
+//   if (selectedOption) {
+
+//   } else {
+//     alert("Please select an option.");
+//   }
+// }
 
 
 
