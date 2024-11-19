@@ -26,13 +26,13 @@ A future feature will provide the person with a weekly shopping list for all the
 
 ## Credits
 
-# Stephanie Sosa - github.com/Stephanuh
+### Stephanie Sosa - github.com/Stephanuh
 
-# Worth Wenger - github.com/Pill-w
+### Worth Wenger - github.com/Pill-w
 
-# Garret Turner - github.com/Condor2665
+### Garret Turner - github.com/Condor2665
 
-# Derek Topham - github.com/MotoDt
+### Derek Topham - github.com/MotoDt
 
 ## Third-party assets;
 
@@ -41,11 +41,11 @@ Xpert Learning Assistant - for code "suggestions".
 
 ## Special thanks to;
 
-# Logan Garland - We basked in the enlightenment of our fearless instructor and for his endless edification.
+### Logan Garland - We basked in the enlightenment of our fearless instructor and for his endless edification.
 
-# Michael Seaman - For his tireless efforts to help us succeed, problem solving skills, all served with boundless patience.
+### Michael Seaman - For his tireless efforts to help us succeed, problem solving skills, all served with boundless patience.
 
-# Anthony Pillow - For his wise guidance and helpful incites.
+### Anthony Pillow - For his wise guidance and helpful incites.
 
 ## License
 
